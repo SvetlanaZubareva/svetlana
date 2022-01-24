@@ -109,6 +109,9 @@ body {
   line-height: 21px;
   text-decoration: none;
   color: #000000;
+  cursor: pointer;
+  border: inherit;
+  background-color: #ffffff;
 }
 
 .button-link {
@@ -179,10 +182,17 @@ body {
   color: #444444;
 }
 
-.address-description,
+.address-description {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+}
+
 .working-time-description {
   font-family: "Rubik", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
@@ -597,6 +607,21 @@ body {
   background-color: #000000;
 }
 
+.strip-right {
+  width: 80px;
+  height: 7px;
+  background-color: #000000;
+}
+
+.link-to-description {
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.reference-link {
+  text-transform: uppercase;
+  position: absolute;
+}
 
 
 
