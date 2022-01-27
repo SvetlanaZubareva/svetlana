@@ -724,7 +724,17 @@ body {
   margin-right: 0;
 }
 
+.container-in-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 61px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
 
-
-
+.yellow-container {
+  width: 80px;
+  height: 7px;
+  background-color: #ffc700;
+}
 
