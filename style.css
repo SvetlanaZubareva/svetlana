@@ -204,10 +204,13 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+  width: 250px;
 }
 
 .navigation-footer {
   color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 20px;
 }
 
 .telephone {
@@ -622,6 +625,105 @@ body {
   text-transform: uppercase;
   position: absolute;
 }
+
+.subscription-information {
+  background-color: #f0f0f0;
+}
+
+.subscription-description-container {
+  display: flex;
+  padding-top: 75px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 50px;
+}
+
+.search-bar-footer {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  margin-left: 140px;
+  margin-right: 40px;
+  margin-bottom: 143px;
+}
+
+.button-search-bar {
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 136px;
+}
+
+.control-mark {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  position: absolute;
+  top: 2555px;
+  left: 1080px;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before,
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 12px;
+  height: 2px;
+  background-color: #08af00;
+  content: "";
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  transform: rotate(45deg);
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  transform: rotate(-45deg);
+}
+
+.footer {
+  background-color: #444444;
+}
+
+.logo-footer {
+  margin-top: 62px;
+  margin-left: 138px;
+  margin-bottom: 35px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 63px;
+}
+
+.tool-list-footer {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  margin-right: 15px;
+}
+
+.social-item:nth-child(3) {
+  margin-right: 0;
+}
+
 
 
 
