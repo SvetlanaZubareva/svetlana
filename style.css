@@ -292,7 +292,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 1160px;
-  min-height: 300px;
+  min-height: 186px;
   background-color: #ffe17f;
   margin: 0 auto;
   margin-top: 40px;
@@ -358,6 +358,12 @@ body {
 .list-tool {
   margin-top: 29px;
   flex-wrap: wrap;
+}
+
+.list-tool-one {
+  margin-top: 29px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 
 
@@ -758,4 +764,32 @@ body {
   left: 1192px;
   top: 90px;
 }
+
+.catalog-navigation {
+  margin-top: 37px;
+  margin-left: 200px;
+}
+
+.bread-crumbs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 49px;
+  margin-top: 30px;
+}
+
+.crumbs {
+  margin-right: 35px;
+}
+
+.navigation-link-crumbs {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 
