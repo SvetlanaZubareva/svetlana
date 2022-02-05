@@ -81,22 +81,34 @@
           </li>
         </ul>
       </div>
-      <h3 class="action-name">фильтр:</h3>
-      <h3 class="action-name">сортировка:</h3>
-      <form class="sorting-type" action="https://echo.htmlacademy.ru/">
-        <label class="visually-hidden" for="sorting-type">Сортировка</label>
-        <select class="select-control" id="sorting-type" name="sorting">
-          <option value="popular-first">Сначала популярные</option>
-          <option value="сheap-first"> Сначала дешевые</option>
-        </select>
-      </form>
+      <section class="filter-description-container">
+        <section class="gray-container">
+          <h3 class="action-name-one">фильтр:</h3>
+        </section>
+        <section class="light-gray-container">
+          <h3 class="action-name-two">сортировка:</h3>
+          <form class="sorting-type" action="https://echo.htmlacademy.ru/">
+            <label class="visually-hidden" for="sorting-type">Сортировка</label>
+            <select class="select-control select-one" id="sorting-type" name="sorting">
+              <option value="popular-first">Сначала популярные</option>
+              <option value="сheap-first"> Сначала дешевые</option>
+            </select>
+          </form>
+          <svg class="gray-triangle" width="11" height="10" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.5 0 11 10H0"/>
+          </svg>
+          <svg class="black-triangle" width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.5 10 0 0h11" fill="#000"/>
+          </svg>
+        </section>
+      </section>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Стоимость</legend>
           <div class="range-scale">
             <div class="range-bar">
-              <button class="range-togle togle-min"></button>
-              <button class="range-togle togle-max"></button>
+              <button class="range-toggle togle-min"></button>
+              <button class="range-toggle togle-max"></button>
             </div>
           </div>
           <label class="catalog-filter-lebel">
