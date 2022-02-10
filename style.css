@@ -885,3 +885,86 @@ body {
   line-height: 18px;
 }
 
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filter-item {
+  list-style-type: none;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control-mark-one {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(235, 235, 235, 1);
+}
+
+.control-mark-one[type="checkbox"]:checked {
+  border: 2px solid #000000;
+}
+
+.control-input-one[type="checkbox"]:checked + .control-mark-one::before,
+.control-input-one[type="checkbox"]:checked + .control-mark-one::after {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 12px;
+  height: 2px;
+  background-color: #242424;
+  content: "";
+}
+
+.control-input-one[type="checkbox"]:checked + .control-mark-one::before {
+  transform: rotate(45deg);
+}
+
+.control-input-one[type="checkbox"]:checked + .control-mark-one::after {
+  transform: rotate(-45deg);
+}
+
+.control-input-two[type="radio"] + .control-mark-two {
+  border-radius: 50%;
+}
+
+.control-input-two[type="radio"]:checked + .control-mark-two::before {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #242424;
+  border-radius: 50%;
+  content: "";
+}
+
+.control-mark-two {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(235, 235, 235, 1);
+  left: 5px;
+}
+
+.forms {
+  width: 468px;
+  height: 1000px;
+  background-color: #e5e5e5;
+}
+
+.button-one {
+  background-color: #e5e5e5;
+}
+
+.directory-listing {
+  display: flex;
+}
