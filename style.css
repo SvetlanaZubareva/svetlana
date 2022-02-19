@@ -43,7 +43,7 @@
 
 html {
   height: 100%;
-  background-color: #ffffff;
+  background-color: #e5e5e5e5;
 }
 
 body {
@@ -957,7 +957,6 @@ body {
 
 .forms {
   width: 468px;
-  height: 1000px;
   background-color: #e5e5e5;
 }
 
@@ -967,4 +966,60 @@ body {
 
 .directory-listing {
   display: flex;
+}
+
+.product-catalog-with-prices {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 360px 360px;
+  gap: 40px;
+  margin-top: 69px;
+  margin-left: 72px;
+}
+
+.description-and-price-of-goods {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name-catalog {
+  margin: 0;
+}
+
+.download-button-one {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 292px;
+  padding-right: 292px;
+  margin-left: 72px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-top: 44px;
+}
+
+.pagination {
+  display: flex;
+  box-sizing: border-box;
+  background-color: #ededed;
+  width: 760px;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 72px;
+  margin-top: 51px;
+  margin-bottom: 77px;
+}
+
+.pagination-in-the-catalog {
+  display: flex;
+}
+
+.item-one {
+  margin-left: 30px;
 }
