@@ -848,9 +848,9 @@ body {
   position: relative;
   height: 2px;
   margin-top: 32px;
-  background-color: #000000;
+  background-color: #dcdcdcdc;
   border-radius: 2px;
-  width: 119px;
+  width: 200px;
 }
 
 .range-toggle {
@@ -1022,4 +1022,34 @@ body {
 
 .item-one {
   margin-left: 30px;
+}
+
+.popover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 320px;
+  color: #ffffff;
+  background-color: #000000;
+  min-height: 302px;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-top: 130px;
+  left: 50%;
+  margin-left: 250px;
+  /* display: none; */
+}
+
+.popover::before {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  content: "";
+  background-color: #000000;
+  bottom: 290px;
+  left: 150px;
+  transform: rotate(45deg);
 }
